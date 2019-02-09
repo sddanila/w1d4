@@ -5,8 +5,8 @@ function myMap(words, cb){
     for(var i = 0; i < words.length; i++){
         result.push(cb(words[i]));
     }
-    return result
-};
+    return result;
+}
 
 
 
